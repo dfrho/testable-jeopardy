@@ -1,4 +1,6 @@
-Jeopardy! is a react and redux-based trivia game application designed for practicing Enzyme and Jest test patterns on more complex, redux apps. It's based on teh David Katz Udemy 'Testing React' course.
+## WIP: Work in Progress
+
+Jeopardy! is a react and redux-based trivia game application designed for practicing Enzyme and Jest test patterns on more complex, redux apps. It's based on the David Katz Udemy 'Testing React' course.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
