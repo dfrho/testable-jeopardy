@@ -1,0 +1,14 @@
+body {
+    padding: 5%;
+    text-align: center;
+}
+
+.link-home {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.category-title-home {
+    margin-top: 70px;
+}
