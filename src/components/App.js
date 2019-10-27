@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { setCategories, pickCategory } from '../actions';
 import { Link } from 'react-router-dom';
 
-class App extends Component {
+export class App extends Component {
   componentDidMount () {
     if (this.props.categories.length === 0) {
       fetch('http://jservice.io/api/categories?count=25')
@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <div>
         <h2>Jeopardy!</h2>
-        {this.props.categories.map(category => {
+        {this.props.categories && this.props.categories.map(category => {
           return (
             <div key={category.id}>
               <Link

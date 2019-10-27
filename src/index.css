@@ -10,5 +10,28 @@ body {
 }
 
 .category-title-home {
-    margin-top: 70px;
+    margin-top: 50px;
+}
+
+.clue {
+    border: 1px solid lightskyblue;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.text-hidden {
+    visibility: hidden
+}
+
+.text-visible {
+    visibility: visible;
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+@keyframes fade-in {
+    from {opacity: 0}
+    to {opacity: 100}
 }
