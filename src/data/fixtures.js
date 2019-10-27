@@ -1,17 +1,19 @@
 export const categories = [
   {
     id: 0,
-    title: 'Category One'
+    title: 'Sean Connery Insults'
   },
   {
     id: 1,
-    title: 'Category Two'
+    title: 'Mrs. Trebek Jokes'
   },
   {
     id: 2,
-    title: 'Category Three'
+    title: 'Potpourri'
   }
 ];
+
+export const category = categories[0];
 
 export const clue = {
   id: 0,
