@@ -4,6 +4,8 @@ import { Category, LinkedCategory } from './Category';
 import { categories, clues } from '../data/fixtures';
 import fetchMock from 'fetch-mock';
 
+// TODO: submit this module as fix for courseware MR
+
 const props = { category: categories[0] };
 
 describe('Category', () => {
@@ -36,7 +38,7 @@ describe('Category', () => {
     });
 
     it('initializes the correct number of clues', () => {
-     expect(category.state().clues.length).toEqual(clues.length);
+     expect(category.state().clues).toEqual(clues);
     });
 
     it('renders the correct number of clues', () => {
